@@ -32,26 +32,3 @@ if __name__ == '__main__':
         time.sleep(0.01)
         if not stop_flag:
             normal()
-
-
-
-# from pynput import keyboard
-
-# def on_press(key):
-#     try:
-#         print('按下按键：{0}'.format(key.char))
-#     except AttributeError:
-#         print('按下特殊按键：{0}'.format(key))
-
-# def on_release(key):
-#     print('松开按键：{0}'.format(key))
-
-# with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
-#     listener.join()
-            
-            
-
-
-
-
-
